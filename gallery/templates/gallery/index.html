@@ -1,0 +1,25 @@
+{% extends "gallery/base.html"%}
+{% load static%}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'gallery/css/index.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="main_container">
+        <div class="paintings" id="paintings">
+            {% for painting in paintings %}
+                <div class="painting">
+                <a class="painting_picture" href="{{painting.get_absolute_url}}">
+                    <img src="{{ painting.image.url }}" alt="{{painting.slug}}">
+                </a>
+                <a class="painting_info" href="{{painting.get_absolute_url}}">
+                    <h2>{{painting.title}}</h2>
+                    <p>{{painting.short_description}}</p>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+

@@ -1,0 +1,22 @@
+.painting {
+  border: 1px solid black;
+  margin: 2%;
+  padding: 0.5%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.painting_picture {
+  margin-right: 1%;
+  width: 40%;
+}
+
+.painting_picture img {
+  width: 100%;
+}
+
+.painting_info {
+  font-size: 16pt;
+  width: 100%;
+}
