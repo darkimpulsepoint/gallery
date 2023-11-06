@@ -1,0 +1,32 @@
+.painting {
+  justify-content: center;
+}
+
+.painting_picture {
+  display: flex;
+  justify-content: center;
+}
+
+.painting_info {
+  margin: 2%;
+  font-size: 16pt;
+}
+
+.painting_info h3{
+  justify-content: center;
+  display: flex;
+}
+
+.painting_picture img {
+  width: 50%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.next, .prev {
+  margin: 1%;
+}

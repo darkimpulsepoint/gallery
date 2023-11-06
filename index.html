@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Картинная галерея Эжена Делакруа</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/paintings.css">
+
+</head>
+    <body>
+        <header id="top">
+            <a href="{% url 'home' %}"><h1>Картинная галерея Эжена Делакруа<h1></a>
+        </header>
+
+        <div class="main_container">
+            <div class="paintings" id="paintings">
+            </div>
+        </div>
+
+        <div class="to_up">
+            <a href="#top">Наверх</a>
+        </div>
+        <footer>
+                <p class="phone">Телефон: +375(17)1234567</p>
+                <p class="instagram">Инст: @delacroix_forever</p>
+        </footer>
+
+        <script src="js/paintings_db.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
