@@ -1,4 +1,6 @@
 # Gallery
+if you want to use django version, stay on branch "master"<br>
+To use html+js version, switch to branch "gallery-js"
 
 ## Table of Contents
 
