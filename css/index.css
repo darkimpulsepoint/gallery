@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,13 +15,14 @@
 
 header{
   display: flex;
-  padding: 2%;
-  margin-bottom: 0;
+  margin: 1%;
+  padding: 1%;
   justify-content: center;
 }
 
 header h1{
-    font-size: 18pt;
+    font-size: 20pt;
+    font-family: "Pacifico";
 }
 
 
